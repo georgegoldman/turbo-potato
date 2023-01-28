@@ -1,15 +1,21 @@
+import java.util.Scanner;
 
 class Main {
 	public static void main(String[] args) {
-		String name = "Onyedikachi Georgegoldman John";
-		String country = "Nigeria";
-		int age = 26;
-		String company = "MUSALA";
-		double gpa = 3.8;
-		char percent = '%';
-		boolean amItellingTheTruth = true;
-		String formattedString = String.format("My name is %s.I am from %s. I am %d years old. I work at %s. My gps is %s, I have attended 60%c of my university classes. These are all %b claims", name, country, age, company, gpa, percent, amItellingTheTruth );
+		String country = new String("abc");
 		
-		System.out.println(formattedString);
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("what is your name?");
+		String name = scanner.nextLine();
+//		System.out.println("Hello %s how old are you?".formatted(name));
+				
+		int age = Integer.parseInt(scanner.nextLine());
+		double gpa = Double.parseDouble(scanner.nextLine());
+		
+//		System.out.printf("%d is an excellent age to start programming, what programming language would you prefare? ", age);
+		String language = scanner.nextLine();
+//		System.out.printf("%s is a very fast programming language", language);
+		scanner.close();
 	}
 }
