@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -8,7 +9,7 @@ class Main {
 	public static void main(String[] args) {
 //		String country = new String("abc");
 		
-		Scanner scanner = new Scanner(System.in);
+//		Scanner scanner = new Scanner(System.in);
 		
 //		System.out.println("what is your name?");
 //		String name = scanner.nextLine();
@@ -63,15 +64,15 @@ class Main {
 //		}
 //		System.out.println(sum);
 		
-		ArrayList<Integer> numbers = new ArrayList<Integer>();
-		
-		numbers.add(5);
-		numbers.add(3);
-		numbers.add(1);
-		numbers.add(4);
-		numbers.add(2);
-		
-		numbers.sort(Comparator.reverseOrder());
+//		ArrayList<Integer> numbers = new ArrayList<Integer>();
+//		
+//		numbers.add(5);
+//		numbers.add(3);
+//		numbers.add(1);
+//		numbers.add(4);
+//		numbers.add(2);
+//		
+//		numbers.sort(Comparator.reverseOrder());
 //		
 //		System.out.println(numbers);
 //		
@@ -99,6 +100,17 @@ class Main {
 //		
 //		System.out.println(examScore.isEmpty());
 //		
+		
+		User user = new User();
+		user.name = "Onyedikachi";
+		user.birthday = LocalDate.parse("1997-08-03");
+		System.out.println(user.birthday.toString());
+		System.out.println(user.age());
+		
+		
+		
+		
+		
 		
 		
 		
