@@ -38,12 +38,43 @@ class Main {
 //		}
 //		scanner.close();
 		
-		char[] vowels = {'e', 'u', 'a', 'o', 'i'};
-		Arrays.sort(vowels);
-		int findItemIndex = Arrays.binarySearch(vowels, 'o');
-		Arrays.fill(vowels, 'o');
+//		char[] vowels = {'e', 'u', 'a', 'o', 'i'};
+//		Arrays.sort(vowels);
+//		int findItemIndex = Arrays.binarySearch(vowels, 'o');
+//		Arrays.fill(vowels, 'o');
+//		
+//		System.out.println(Arrays.toString(vowels));
+		int[] numbers = {1, 2, 3, 4, 5};
 		
-		System.out.println(Arrays.toString(vowels));
+		int[] copyNumbers = Arrays.copyOf(numbers, numbers.length);
+		
+		Arrays.fill(numbers, 0);
+		
+		System.out.println(Arrays.toString(copyNumbers));
+		
+		System.out.println(Arrays.toString(numbers));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
