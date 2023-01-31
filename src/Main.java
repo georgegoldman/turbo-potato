@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.Scanner;
 
 class Main {
@@ -83,10 +84,21 @@ class Main {
 //		});
 //		
 //		System.out.println(numbers.toString());
-		
-		
-		
-		
+//		HashMap<String, Integer> examScore = new HashMap<String, Integer>();
+//		
+//		examScore.put("math", 75);
+//		examScore.put("stat", 85);
+//		
+//		examScore.putIfAbsent("cos", 100);
+//		
+//		examScore.forEach((key, value) -> {
+//			System.out.print(key+" ");
+//			System.out.println(value);
+//		});
+//		
+//		
+//		System.out.println(examScore.isEmpty());
+//		
 		
 		
 		
