@@ -106,9 +106,11 @@ class Main {
 //		System.out.println(user.age());
 		
 		Book book = new Book("Onyedikachi", "The power in woman");
+		AudioBook audioBook = new AudioBook("Dracula", "Bram Stoker", 3000);
+		Ebook ebook = new Ebook("Carry on Jeeves", "P.G. wodehouse", "pdf");
 		user.borrow(book);
-		System.out.println(user.getname());
-		System.out.println(user.books);
+//		System.out.println(user.getname());
+		System.out.println(ebook.getAuthor());
 		
 		
 		
