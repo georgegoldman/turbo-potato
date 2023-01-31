@@ -17,24 +17,24 @@ class Main {
 //		String language = scanner.nextLine();
 //		System.out.printf("%s is a very fast programming language", language);
 		
-		System.out.println("enter the first number");
+//		System.out.println("enter the first number");
 		
-		double number1 = scanner.nextDouble();
+//		double number1 = scanner.nextDouble();
 		
-		System.out.println("enter the second number");
-		double number2 = scanner.nextDouble();
-		scanner.nextLine();
+//		System.out.println("enter the second number");
+//		double number2 = scanner.nextDouble();
+//		scanner.nextLine();
 		
-		System.out.println("what operation do you want to perform");
-		String operation  = scanner.nextLine();
+//		System.out.println("what operation do you want to perform");
+//		String operation  = scanner.nextLine();
 		
 		
 //		System.out.printf("first number => %f, second number => %f", number1, number2);
-		if (operation.equals("sum")) {
-			System.out.printf("%f + %f = %f", number1, number2, number1 + number2);
-		} else {
-			System.out.printf("%s is not a supported operation", operation);
-		}
-		scanner.close();
+//		if (operation.equals("sum")) {
+//			System.out.printf("%f + %f = %f", number1, number2, number1 + number2);
+//		} else {
+//			System.out.printf("%s is not a supported operation", operation);
+//		}
+//		scanner.close();
 	}
 }
