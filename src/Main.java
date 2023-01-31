@@ -110,7 +110,7 @@ class Main {
 		book.title = "The power in woman";
 		
 		user.borrow(book);
-		System.out.println(user.books.get(0).title);
+		System.out.println(user.getname());
 		
 		
 		

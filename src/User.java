@@ -3,13 +3,21 @@ import java.time.Period;
 import java.util.ArrayList;
 
 public class User {
-	public String name;
-	public LocalDate birthday;
+	private String name;
+	private LocalDate birthday;
 	public ArrayList<Book> books = new ArrayList<Book>();
 	
 	User(String name, String birthday) {
 		this.name = name;
 		this.birthday = LocalDate.parse(birthday);
+	}
+	
+	public String getname() {
+		return this.name;
+	}
+	
+	public String getBirthday() {
+		return this.birthday.toString();
 	}
 	
 	public void borrow(Book book) {
