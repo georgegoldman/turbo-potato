@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 class Main {
@@ -36,5 +37,28 @@ class Main {
 //			System.out.printf("%s is not a supported operation", operation);
 //		}
 //		scanner.close();
+		
+		char[] vowels = {'e', 'u', 'a', 'o', 'i'};
+		Arrays.sort(vowels);
+		int findItemIndex = Arrays.binarySearch(vowels, 'o');
+		Arrays.fill(vowels, 'o');
+		
+		System.out.println(Arrays.toString(vowels));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
