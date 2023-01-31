@@ -101,70 +101,24 @@ class Main {
 //		System.out.println(examScore.isEmpty());
 //		
 		
-		User user = new User("Onyedikachi", "1997-08-03");
+//		User user = new User("Onyedikachi", "1997-08-03");
 //		System.out.println(user.birthday.toString());
 //		System.out.println(user.age());
 		
-		Book book = new Book("Onyedikachi", "The power in woman");
-		AudioBook audioBook = new AudioBook("Dracula", "Bram Stoker", 3000);
-		Ebook ebook = new Ebook("Carry on Jeeves", "P.G. wodehouse", "pdf");
-		user.borrow(book);
+//		Book book = new Book("Onyedikachi", "The power in woman");
+//		AudioBook audioBook = new AudioBook("Dracula", "Bram Stoker", 3000);
+//		Ebook ebook = new Ebook("Carry on Jeeves", "P.G. wodehouse", "pdf");
+//		user.borrow(book);
 //		System.out.println(user.getname());
-		System.out.println(ebook.getAuthor());
+//		System.out.println(ebook.getAuthor());
+		System.out.println(sayHi(5));
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	}
+	
+	private static int sayHi(int num) {
+		if (num == 0)
+			return 1;
+		else
+			return (num * sayHi(num - 1));
 	}
 }
