@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 
 class Main {
@@ -44,15 +46,60 @@ class Main {
 //		Arrays.fill(vowels, 'o');
 //		
 //		System.out.println(Arrays.toString(vowels));
-		int[] numbers = {1, 2, 3, 4, 5};
+//		
+//		int[] copyNumbers = Arrays.copyOf(numbers, numbers.length);
+//		
+//		Arrays.fill(numbers, 0);
+//		
+//		System.out.println(Arrays.toString(copyNumbers));
+//		
+//		System.out.println(Arrays.toString(numbers));
+//		int[] numbers = {1, 2, 3, 4, 5};
+//		int sum = 0;
+//		
+//		for (int number : numbers) {
+//			sum += number;
+//		}
+//		System.out.println(sum);
 		
-		int[] copyNumbers = Arrays.copyOf(numbers, numbers.length);
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
 		
-		Arrays.fill(numbers, 0);
+		numbers.add(5);
+		numbers.add(3);
+		numbers.add(1);
+		numbers.add(4);
+		numbers.add(2);
 		
-		System.out.println(Arrays.toString(copyNumbers));
+		numbers.sort(Comparator.reverseOrder());
+//		
+//		System.out.println(numbers);
+//		
+//		System.out.println(numbers.size());
+//		
+//		System.out.println(numbers.contains(Integer.valueOf(1)));
+//		numbers.forEach(number -> {
+//			numbers.set(numbers.indexOf(number), number * 2);
+//			
+//		});
+//		
+//		System.out.println(numbers.toString());
 		
-		System.out.println(Arrays.toString(numbers));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
