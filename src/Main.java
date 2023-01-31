@@ -104,8 +104,15 @@ class Main {
 		User user = new User();
 		user.name = "Onyedikachi";
 		user.birthday = LocalDate.parse("1997-08-03");
-		System.out.println(user.birthday.toString());
-		System.out.println(user.age());
+//		System.out.println(user.birthday.toString());
+//		System.out.println(user.age());
+		
+		Book book = new Book();
+		book.author = "Onyedikachi";
+		book.title = "The power in woman";
+		
+		user.borrow(book);
+		System.out.println(user.books.get(0).title);
 		
 		
 		
