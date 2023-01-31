@@ -23,8 +23,18 @@ class Main {
 		
 		System.out.println("enter the second number");
 		double number2 = scanner.nextDouble();
+		scanner.nextLine();
 		
-		System.out.printf("first number => %f, second number => %f", number1, number2);
+		System.out.println("what operation do you want to perform");
+		String operation  = scanner.nextLine();
+		
+		
+//		System.out.printf("first number => %f, second number => %f", number1, number2);
+		if (operation.equals("sum")) {
+			System.out.printf("%f + %f = %f", number1, number2, number1 + number2);
+		} else {
+			System.out.printf("%s is not a supported operation", operation);
+		}
 		scanner.close();
 	}
 }
