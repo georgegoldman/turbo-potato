@@ -101,9 +101,7 @@ class Main {
 //		System.out.println(examScore.isEmpty());
 //		
 		
-		User user = new User();
-		user.name = "Onyedikachi";
-		user.birthday = LocalDate.parse("1997-08-03");
+		User user = new User("Onyedikachi", "1997-08-03");
 //		System.out.println(user.birthday.toString());
 //		System.out.println(user.age());
 		
