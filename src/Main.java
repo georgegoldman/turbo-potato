@@ -105,13 +105,10 @@ class Main {
 //		System.out.println(user.birthday.toString());
 //		System.out.println(user.age());
 		
-		Book book = new Book();
-		book.author = "Onyedikachi";
-		book.title = "The power in woman";
-		
+		Book book = new Book("Onyedikachi", "The power in woman");
 		user.borrow(book);
 		System.out.println(user.getname());
-		
+		System.out.println(user.books);
 		
 		
 		
